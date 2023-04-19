@@ -121,19 +121,63 @@
         display: flex;
     
         justify-content: center;   
-        
+        padding-top: 20px;
     
         font-size: 40px;
     }
         
-    #about-me{
+   
+    .text-aboutMe{
+        padding-left: 20px;
+        border-left: none;
+        border-top: 1px solid white ;
+        padding-bottom: 4px;
+    }
+    
+    .text-aboutMe>h3{
+        padding-top: 20px;
+        font-size: 3.5rem;
+        width: 100%;
+    
+    
+        color: var(--color-secundary);
+    }
+    
+    .text-aboutMe>p{
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        width: 450px;
+    }
+
+    .text-and-image>.text-aboutMe{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        width: 100vw;
-        height: 1500px;
-        max-width: 100%;
+        align-items: center;
+        justify-content: start;
     }
+
+    .text-and-image>.text-aboutMe>h3{
+        display: flex;
+
+        justify-content: center;
+        font-size: 2rem;
+    }
+}
+@media (max-width:1024px) {
+    #about-me>h2{
+        width: 100vw;
+        height: 150px;
+    
+        display: flex;
+    
+        justify-content: center;   
+        padding-top: 20px;
+    
+        font-size: 40px;
+    }
+        
+   
     .text-aboutMe{
         padding-left: 20px;
         border-left: none;
@@ -172,10 +216,44 @@
     }
 }
 
+@media (max-width:950px) {
+
+    #about-me>h2{
+        align-items: center;
+    }
+
+    #about-me{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 100vw;
+        height: 1200px;
+        max-width: 100%;
+    }
+
+    .text-and-image{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 8px; 
+        overflow: hidden;
+
+    }
+}
+
 @media (max-width:768px) {
 
     #about-me>h2{
         align-items: center;
+    }
+
+    #about-me{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 100vw;
+        height: 1200px;
+        max-width: 100%;
     }
 
     .text-aboutMe{
@@ -200,13 +278,63 @@
 
     .text-and-image>.text-aboutMe{
         width: 60%;
+        
     }
 }
 
-@media (max-width:580px) {
+@media (max-width:680px) {
 
     #about-me>h2{
         align-items: center;
+    }
+
+    #about-me{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 100vw;
+        height: 1200px;
+        max-width: 100%;
+    }
+
+    .text-aboutMe{
+        padding-left: 20px;
+        padding-bottom: 4px;
+    }
+    
+    .text-aboutMe>h3{
+        padding-top: 20px;
+        font-size: 3rem;
+        width: 100%;
+    
+        color: var(--color-secundary);
+    }
+    
+    .text-aboutMe>p{
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        width: 450px;
+    }
+
+    .text-and-image>.text-aboutMe{
+        width: 80%;
+    }
+}
+
+@media (max-width:590px) {
+
+    #about-me>h2{
+        align-items: center;
+    }
+
+    #about-me{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 100vw;
+        height: 1200px;
+        max-width: 100%;
     }
 
     .text-aboutMe{
@@ -226,7 +354,7 @@
         font-size: 18px;
         padding-top: 10px;
         padding-bottom: 20px;
-        width: 450px;
+        width: 100%;
     }
 
     .text-and-image>.text-aboutMe{
@@ -238,8 +366,18 @@
 
     #about-me>h2{
         font-size: 2em;
-        align-items: center;
+        align-items: left;
     }
+
+    #about-me{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 100vw;
+        height: 1100px;
+        max-width: 100%;
+    }
+    
 
     .text-aboutMe{
         padding-left: 20px;
@@ -249,9 +387,7 @@
     .text-aboutMe>h3{
         padding-top: 20px;
         font-size: 3rem;
-        width: 250px;
-    
-    
+        width: 100%;
         color: var(--color-secundary);
     }
     
@@ -259,7 +395,16 @@
         font-size: 16px;
         padding-top: 10px;
         padding-bottom: 20px;
-        width: 450px;
+        width: 100%;
+    }
+
+    
+    .text-and-image>img{
+        width: 350px;
+        min-width: 300px;
+        height: 350px;
+        border-radius: 100%;
+        transition: all .6s;
     }
 
     .text-and-image>.text-aboutMe{
@@ -267,3 +412,168 @@
     }
 }
 
+
+@media (max-width:380px) {
+
+    #about-me>h2{
+        font-size: 1.5em;
+        align-items: center;
+    }
+
+    
+    #about-me{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 100vw;
+        height: 1100px;
+        max-width: 100%;
+    }
+
+    .text-aboutMe{
+
+        padding-left: 20px;
+        padding-bottom: 4px;
+    }
+    
+    .text-aboutMe>h3{
+        padding-top: 20px;
+        font-size: 2.2rem;
+        width: 100%;
+    
+    
+        color: var(--color-secundary);
+    }
+    
+    .text-aboutMe>p{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    .text-and-image{
+        justify-content: space-around;
+    }
+
+    .text-and-image>img{
+        width: 300px;
+        min-width: 300px;
+        height: 300px;
+        margin-top: 30px;
+        border-radius: 100%;
+        transition: all .6s;
+    }
+    
+
+    .text-and-image>.text-aboutMe{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:345px) {
+    #about-me{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 100vw;
+        height: 1100px;
+        max-width: 100%;
+    }
+
+
+    .text-aboutMe>h3{
+        padding-top: 20px;
+        font-size: 2.2rem;
+        width: 100%;
+
+    
+        color: var(--color-secundary);
+    }
+    
+    .text-aboutMe>p{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+
+    .text-and-image{
+        height: 80%;
+
+    }
+
+    .text-and-image>img{
+        width: 250px;
+        min-width: 250px;
+        height: 250px;
+        border-radius: 100%;
+        transition: all .6s;
+    }
+
+    .text-and-image>.text-aboutMe{
+        width: 100%;
+        height: 60%;
+    }
+}
+
+
+
+@media (max-width:300px) {
+    #about-me{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 100vw;
+        height: 1100px;
+        max-width: 100%;
+    }
+
+
+    .text-aboutMe>h3{
+        padding-top: 20px;
+        font-size: 2.2rem;
+        width: 100%;
+
+    
+        color: var(--color-secundary);
+    }
+    
+    .text-aboutMe>p{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+
+    .text-and-image{
+        height: 80%;
+
+        align-items: center;
+    }
+
+
+    .text-and-image>img{
+        width: 250px;
+        min-width: 250px;
+        height: 250px;
+        position: relative;
+        bottom:40px;
+        border-radius: 100%;
+        transition: all .6s;
+    }
+
+    .text-and-image>.text-aboutMe{
+        width: 100%;
+        height: 70%;
+    }
+}

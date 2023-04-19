@@ -28,8 +28,7 @@
     margin-top: 5px;
     width: 80%;
 }
-
-#my-knowledge>.knowledge-header>h2{
+.knowledge-header>h2{
     font-size: 40px;
 }
 
@@ -73,6 +72,15 @@
 
 .stacks:hover{
     transform: scale(1.1,1.1);
+}
+
+
+@media (max-width:350px){
+
+    #my-knowledge>.knowledge-header>h2{
+        font-size: 30px;
+    }
+
 }
 
 

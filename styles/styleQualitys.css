@@ -75,6 +75,7 @@
     width: 100%;
     padding: 8px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -98,6 +99,148 @@
         column-gap: 30px;
         row-gap: 30px;
         padding: 20px;
+
+        
     
+    }
+
+    .item{
+        padding-left:0px ;
+    }
+}
+
+@media (max-width:680px){
+    #my-qualitys>.quality-header>h2{
+        font-size: 2.5em;
+    }
+
+    #container-items{
+        width:70%;
+        height: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 30px;
+        padding: 20px;
+
+        
+    
+    }
+}
+
+@media (max-width:590px){
+    #my-qualitys>.quality-header>h2{
+        font-size: 2.5em;
+    }
+
+    #container-items{
+        width:70%;
+        height: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 30px;
+        padding: 20px;
+
+        
+    
+    }
+}
+
+
+
+@media (max-width:480px){
+    #my-qualitys>.quality-header>h2{
+        font-size: 2.5em;
+    }
+
+    #container-items{
+        width:70%;
+        height: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 30px;
+        padding: 20px;
+
+        
+    
+    }
+}
+
+
+
+@media (max-width:350px){
+    #my-qualitys>.quality-header>h2{
+        font-size: 2.5em;
+    }
+
+    #container-items{
+        width:70%;
+        height: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 30px;
+        padding: 20px;
+
+        
+    
+    }
+
+    .item{
+        padding-left:0px ;
+    }
+
+
+    .item>header{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .item>header>h3{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+       
+
+
+    }
+
+    #resolution>header>{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #resolution>header>h3{
+        display: flex;
+
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+       
+
+
     }
 }
