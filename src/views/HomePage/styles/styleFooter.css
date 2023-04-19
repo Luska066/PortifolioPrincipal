@@ -1,0 +1,116 @@
+:root{
+    --color-primary: #363333;
+    --color-header: #1D1E1F;
+    --color-secundary: #00FF85;
+    --color-qualitys: #8A8A8A;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--color-header);
+    height: 450px;    
+    padding: 20px;
+}
+
+footer>hr{
+
+    height: 80%;
+}
+
+
+
+footer>#left-part{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 500px;
+    padding-right: 20px;
+}
+
+footer>#left-part>header>h2{
+    font-size: 30px;
+}
+
+footer>#left-part>p{
+    margin-top: 8px;
+    
+}
+
+footer>#right-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 502px;
+}
+
+footer>#right-part>.container-rightPart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    height: 300px;
+    row-gap: 40px;
+    font-size: 50px;
+
+}
+footer>#right-part>.container-rightPart>i:hover{
+    transform: scale(1.04,1.04);
+    color: var(--color-secundary);
+}
+
+    @media (max-width:1366px) {
+        footer{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: var(--color-header);
+            height: 450px;    
+            min-height: 300px;
+            padding: 20px;
+        }
+
+                
+        footer>#left-part>p{
+            margin-top: 8px;
+            min-height: 300px;
+        }
+
+        footer>#left-part{
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: center;
+            width: 500px;
+            min-width: 400px;
+            padding-right: 20px;
+        }
+        
+
+    }    
+    
+    @media (max-width:1024px) {
+        footer>#left-part{
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: center;
+            width: 400px;
+            min-width: 300px;
+            padding-right: 20px;
+        }
+
+    }
+    
+    @media (max-width:768px) {
+    
+     
+    }
+    
+

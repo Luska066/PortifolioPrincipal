@@ -1,0 +1,269 @@
+:root{
+    --color-primary: #363333;
+    --color-header: #1D1E1F;
+    --color-secundary: #00FF85;
+
+}
+
+*{
+    box-sizing: content-box;
+}
+
+#about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    width: 100vw;
+    height: 900px;
+    max-width: 100%;
+}
+
+#about-me>h2{
+    width: 100vw;
+    height: 150px;
+
+    display: flex;
+
+    justify-content: center;   
+
+
+    font-size: 40px;
+}
+
+.text-and-image{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 8px; 
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.text-and-image>img{
+    width: 500px;
+    min-width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    transition: all .6s;
+}
+
+.text-and-image>img:hover{
+    transform: scale(1.04,1.04);
+
+}
+
+.text-aboutMe{
+    padding-left: 20px;
+    border-left: 1px solid white ;
+    height: 510px;
+    padding-bottom: 4px;
+}
+
+.text-aboutMe>h3{
+    padding-top: 20px;
+    font-size: 3.5rem;
+    width: 80%;
+
+
+    color: var(--color-secundary);
+}
+
+.text-aboutMe>p{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 450px;
+}
+
+@media (max-width:1366px) {
+    
+#about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 900px;
+    max-width: 100%;
+}   
+
+#about-me>h2{
+    width: 100vw;
+    height: 150px;
+
+    display: flex;
+
+    justify-content: center;   
+
+
+    font-size: 40px;
+}
+
+.text-and-image>img{
+    width: 400px;
+    min-width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    transition: all .6s;
+}
+
+
+.text-and-image>.text-aboutMe{
+    width: 50%;
+}
+}
+
+@media (max-width:1024px) {
+    #about-me>h2{
+        width: 100vw;
+        height: 150px;
+    
+        display: flex;
+    
+        justify-content: center;   
+        
+    
+        font-size: 40px;
+    }
+        
+    #about-me{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        height: 1500px;
+        max-width: 100%;
+    }
+    .text-aboutMe{
+        padding-left: 20px;
+        border-left: none;
+        border-top: 1px solid white ;
+        padding-bottom: 4px;
+    }
+    
+    .text-aboutMe>h3{
+        padding-top: 20px;
+        font-size: 3.5rem;
+        width: 100%;
+    
+    
+        color: var(--color-secundary);
+    }
+    
+    .text-aboutMe>p{
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        width: 450px;
+    }
+
+    .text-and-image>.text-aboutMe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .text-and-image>.text-aboutMe>h3{
+        display: flex;
+
+        justify-content: center;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:768px) {
+
+    #about-me>h2{
+        align-items: center;
+    }
+
+    .text-aboutMe{
+        padding-left: 20px;
+        padding-bottom: 4px;
+    }
+    
+    .text-aboutMe>h3{
+        padding-top: 20px;
+        font-size: 3rem;
+        width: 450px;
+    
+        color: var(--color-secundary);
+    }
+    
+    .text-aboutMe>p{
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        width: 450px;
+    }
+
+    .text-and-image>.text-aboutMe{
+        width: 60%;
+    }
+}
+
+@media (max-width:580px) {
+
+    #about-me>h2{
+        align-items: center;
+    }
+
+    .text-aboutMe{
+        padding-left: 20px;
+        padding-bottom: 4px;
+    }
+    
+    .text-aboutMe>h3{
+        padding-top: 20px;
+        font-size: 3rem;
+        width: 450px;
+    
+        color: var(--color-secundary);
+    }
+    
+    .text-aboutMe>p{
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        width: 450px;
+    }
+
+    .text-and-image>.text-aboutMe{
+        width: 80%;
+    }
+}
+
+@media (max-width:480px) {
+
+    #about-me>h2{
+        font-size: 2em;
+        align-items: center;
+    }
+
+    .text-aboutMe{
+        padding-left: 20px;
+        padding-bottom: 4px;
+    }
+    
+    .text-aboutMe>h3{
+        padding-top: 20px;
+        font-size: 3rem;
+        width: 250px;
+    
+    
+        color: var(--color-secundary);
+    }
+    
+    .text-aboutMe>p{
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        width: 450px;
+    }
+
+    .text-and-image>.text-aboutMe{
+        width: 100%;
+    }
+}
+
